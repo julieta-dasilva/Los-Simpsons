@@ -1,0 +1,105 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     
+     
+}
+
+body {
+     
+     background-color: var(--blanco);
+     font-family: "Roboto", sans-serif; 
+     
+     padding: 50px;
+     
+}
+
+:root {
+     --amarillo: #ffde00;
+     --azul: #137abf;
+     --blanco: #fff;
+     --negro:#000 ;
+     --linea:#ccc;
+}
+section{
+     max-width: 1200px;/*el ancho max del contenido siempre va en el body???*/
+
+     margin: 0px auto;/*centrado del contendio de toda la pag*/
+
+}
+
+header img{
+     display: block;
+     margin:40px auto;
+     border-top: 0;
+     border-bottom: 0;
+     max-width: 150px;
+     margin-bottom: 8px;
+}
+
+
+
+
+nav ul li  {
+
+     
+     display: inline;
+     padding: 10px ;
+     margin: 30px;
+}
+
+a{
+     text-align: center;/*coomo hago para que midan lo mismo que el lago de la img ???*/
+     text-decoration: none;
+     color: var(--negro);
+    font-weight: 600; 
+
+    
+
+}
+
+a:hover{
+     text-transform: 1s;
+     border-radius: 4px;
+     padding: 13px;
+     margin: 20px;
+     background-color:var(--amarillo) ;
+}
+h1, h2 {
+     font-family: "Madimi One", sans-serif;
+}
+
+h1 {
+
+     text-align: center;
+     font-weight: 60px;
+     /*preguntar si eso es esto la referencia H1
+     Tamaño 60px*/
+     padding: 30px;/*el ancho de la linea azul.*/
+     background-color: var(--azul);
+     color: var(--blanco);
+     
+}
+h2{
+     padding: 10px;
+     margin-bottom: 12px; 
+     border-bottom:2px solid var(--azul) ;
+}
+img{
+  margin-top: 20px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+p{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.premios{
+     margin: 20px;
+     padding: 10px;
+    
+}
+.titulo{
+     
+}
